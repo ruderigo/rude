@@ -1,6 +1,7 @@
 // Base code source from https://blog.gsmart.in/send-email-when-cell-value-changes-in-google-sheets/
 // The code is modified to handle HTML in the body of the email 
 // This is the first time I succeeded in overhauling a code on my own, I am sorry if I cannot explain everything. I will get there!
+// Note that you should not try to call on merged cells, you will end up with empty data
 
 //A = Trigger function 
 function triggerOnEdit(e)
